@@ -23,7 +23,7 @@ export const RendererDataProvider = ({
     img.src = spriteImagePath;
     img.addEventListener("load", () => {
       const canvas = document.createElement("canvas");
-      const size = Math.sqrt(spriteSize * totalNumber);
+      const size = Math.sqrt(totalNumber) * spriteSize;
       canvas.width = size;
       canvas.height = size;
       canvas.getContext("2d")?.drawImage(img, 0, 0);

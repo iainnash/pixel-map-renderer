@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "yarn run prepack",
-    "prepack": "yarn clean && yarn run tsc",
+    "prettier": "prettier src example --write",
+    "prepack": "yarn clean && yarn run prettier && yarn run tsc",
     "clean": "rm -rf ./dist"
   },
   "repository": "git@github.com:iainnash/pixel-map-renderer.git",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "prettier": "^2.3.2",
+    "react-dom": "^17.0.2",
     "typescript": "^4.3.5"
   }
 }
