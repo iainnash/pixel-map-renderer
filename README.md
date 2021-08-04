@@ -1,8 +1,11 @@
 # pixel-map-renderer
-renders pixelmapped avatars, useful for punks
+renders pixelmapped avatars such as punks
+
+works for any square grid-layout avatar format
+
 
 run example: 
 `sh example/run.sh`
 
-example:
+example preview:
 ![example.png](./example.png)
