@@ -1,7 +1,7 @@
 import { RendererDataProvider } from "../src/RendererDataProvider";
 import { RenderSprite } from "../src/RenderSprite";
 // @ts-ignore
-import punks from './images/punks.png';
+import punks from "./images/punks.png";
 
 export const PunkExample = () => {
   const idsToRender = [10, 1000, 9998, 8010, 0, 1020];
