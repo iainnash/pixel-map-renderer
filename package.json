@@ -1,0 +1,27 @@
+{
+  "name": "pixel-map-renderer",
+  "version": "1.0.0",
+  "description": "renders pixel maps for react websites",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn run prepack",
+    "prepack": "yarn clean && yarn run tsc",
+    "clean": "rm -rf ./dist"
+  },
+  "repository": "git@github.com:iainnash/pixel-map-renderer.git",
+  "author": "Iain <iain@zora.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^17.0.15",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
