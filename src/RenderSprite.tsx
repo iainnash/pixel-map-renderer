@@ -22,7 +22,6 @@ export const RenderSprite = ({
       const sideLength = Math.sqrt(imageDataContext.totalNumber);
       const x = (id % sideLength) * imageDataContext.spriteSize;
       const y = Math.floor(id / sideLength) * imageDataContext.spriteSize;
-      console.log({ id, sideLength, x, y });
       canvasCtx.putImageData(
         imageDataContext.canvas.getImageData(
           x,
