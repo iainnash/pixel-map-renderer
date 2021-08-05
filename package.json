@@ -1,6 +1,6 @@
 {
   "name": "pixel-map-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "renders pixel maps for react websites",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
